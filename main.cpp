@@ -10,9 +10,17 @@ int main(){
         Avion ("Vuelo a Venezuela", 20),
         Avion ("Vuelo a Brasil", 20),
     };
+
+    cout << "*---------------------------------*\n";
+    cout << "|                                 |\n";
+    cout << "|           Bien venido           |\n";
+    cout << "|  Programa de compra de boletos  |\n";
+    cout << "|                                 |\n";
+    cout << "*---------------------------------*\n";
     
  int opcionesAcciones;
     do {
+        cout << "\nVuelos: \n";
         cout << "\n1 = Vuelo a Argentina\n2 = Vuelo a Colombia\n3 = Vuelo a Peru\n4 = Vuelo a Venezuela\n5 = Vuelo a Brasil\n0 = Salir\n";
         cout << "\nIngrese eleccion: ";
         cin >> opcionesAcciones;
