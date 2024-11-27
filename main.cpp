@@ -3,12 +3,17 @@
 
 int main(){
 
-    Avion avionesArray [5]= {
+    Avion avionesArray [10]= {
         Avion ("Vuelo a Argentina", 20),
         Avion ("Vuelo a Colombia", 20),
         Avion ("Vuelo a Peru", 20),
         Avion ("Vuelo a Venezuela", 20),
         Avion ("Vuelo a Brasil", 20),
+        Avion ("Auelo a Chile", 20),
+        Avion ("Vuelo a Bolivia", 20), 
+        Avion ("Vuelo a Urugüay", 20), 
+        Avion ("Vuelo a Paragüay", 20), 
+        Avion ("Vuelo a Ecuador", 20)
     };
 
     cout << "*---------------------------------*\n";
@@ -21,11 +26,12 @@ int main(){
  int opcionesAcciones;
     do {
         cout << "\nVuelos: \n";
-        cout << "\n1 = Vuelo a Argentina\n2 = Vuelo a Colombia\n3 = Vuelo a Peru\n4 = Vuelo a Venezuela\n5 = Vuelo a Brasil\n0 = Salir\n";
+        cout << "\n1 = Vuelo a Argentina\n2 = Vuelo a Colombia\n3 = Vuelo a Peru\n4 = Vuelo a Venezuela\n5 = Vuelo a Brasil\n";
+        cout << "6 = Vuelo a Chile\n7 = Vuelo a Bolivia\n8 = Vuelo a Urugüay\n9 = Vuelo a Paragüay\n10 = Vuelo a Ecuador\n0 = Salir\n";
         cout << "\nIngrese eleccion: ";
         cin >> opcionesAcciones;
 
-        if (opcionesAcciones >= 1 && opcionesAcciones <= 5) {
+        if (opcionesAcciones >= 1 && opcionesAcciones <= 10) {
             int opcioBoleto;
             cout << "\n1 = Comprar boleto\n2 = Mostrar boletos\n0 = Salir\n";
             cout << "\nIngrese su eleccion: ";

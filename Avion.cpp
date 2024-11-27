@@ -32,6 +32,7 @@ void Avion :: setCapacidadMaxima(int capacidadMaxima){
 
 void Avion :: comprarBoleto(){
     if (boletosVendidos < capacidadMaxima){
+        cout << "Ingresaste a "<< nombreVuelo << endl;
         string nombrePasajero;
         cout << "Ingrese el nombre del pasajero: ";
         cin.ignore();
