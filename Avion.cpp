@@ -42,7 +42,6 @@ void Avion :: comprarBoleto(){
         cin.ignore();
         getline(cin, nombrePasajero);
 
-
         int numeroAsiento = boletosVendidos + 1;
         boletos[boletosVendidos] = Boleto(nombrePasajero, numeroAsiento);
         boletosVendidos ++;
