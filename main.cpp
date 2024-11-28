@@ -25,7 +25,7 @@ int main(){
     
  int opcionesAcciones;
     do {
-        cout << "\nVuelos: \n";
+        cout << "\n     ---Vuelos---\n";
         cout << "\n1 = Vuelo a Argentina\n2 = Vuelo a Colombia\n3 = Vuelo a Peru\n4 = Vuelo a Venezuela\n5 = Vuelo a Brasil\n";
         cout << "6 = Vuelo a Chile\n7 = Vuelo a Bolivia\n8 = Vuelo a Urugüay\n9 = Vuelo a Paragüay\n10 = Vuelo a Ecuador\n0 = Salir\n";
         cout << "\nIngrese eleccion: ";
@@ -48,7 +48,7 @@ int main(){
                 cout << "\nOpcion invalida.\n";
             }
         } else if (opcionesAcciones == 0) {
-            cout << "\nSaliendo del programa.\n";
+            cout << "\nSaliendo del programa...\n";
         } else {
             cout << "\nOpcion invalida.\n";
         }
