@@ -13,7 +13,7 @@ int main(){
         Avion ("Vuelo a Peru", 20),
         Avion ("Vuelo a Venezuela", 20),
         Avion ("Vuelo a Brasil", 20),
-        Avion ("Auelo a Chile", 20),
+        Avion ("Vuelo a Chile", 20),
         Avion ("Vuelo a Bolivia", 20), 
         Avion ("Vuelo a Urugüay", 20), 
         Avion ("Vuelo a Paragüay", 20), 
@@ -27,7 +27,7 @@ int main(){
     cout << "|                                   |\n";
     cout << "*-----------------------------------*\n";
     
- int opcionesAcciones;
+    int opcionesAcciones;
     do {
 
         cout << "\n     ---Vuelos---\n";
