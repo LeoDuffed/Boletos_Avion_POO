@@ -20,12 +20,12 @@ int main(){
         Avion ("Vuelo a Ecuador", 20)
     };
 
-    cout << "*---------------------------------*\n";
-    cout << "|                                 |\n";
-    cout << "|            Bienvenido           |\n";
-    cout << "|  Programa de compra de boletos  |\n";
-    cout << "|                                 |\n";
-    cout << "*---------------------------------*\n";
+    cout << "*----------------------------------*\n";
+    cout << "|                                  |\n";
+    cout << "|             Bienvenido           |\n";
+    cout << "|   Programa de compra de boletos  |\n";
+    cout << "|                                  |\n";
+    cout << "*----------------------------------*\n";
     
  int opcionesAcciones;
     do {
@@ -47,7 +47,7 @@ int main(){
             } else if (opcioBoleto == 2) {
                 avionesArray[opcionesAcciones - 1].mostrarBoleto();
             } else if (opcioBoleto == 0) {
-                cout << "\nSaliendo del menu del vuelo seleccionado.\n";
+                cout << "\nSaliendo al menu.\n";
             } else {
                 cout << "\nOpcion invalida.\n";
             }
