@@ -1,3 +1,7 @@
+// 
+// Creado por Leonardo Martínez Peña
+//
+
 #include "Boleto.h"
 #include <iostream> 
 using namespace std;

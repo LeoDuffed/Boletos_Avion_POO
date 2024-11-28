@@ -1,3 +1,7 @@
+//
+// Creado por Leonardo Martínez Peña
+//
+
 #ifndef BOLETO_H
 #define BOLETO_H
 #include <iostream> 

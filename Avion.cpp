@@ -1,3 +1,7 @@
+//
+// Creado por Leonardo Martínez Peña
+//
+
 #include "Avion.h"
 #include <iostream> 
 using namespace std;

@@ -1,3 +1,7 @@
+//
+// Creado por Leonardo Martínez Peña
+//
+
 #include <iostream> 
 #include "Avion.h"
 
@@ -18,7 +22,7 @@ int main(){
 
     cout << "*---------------------------------*\n";
     cout << "|                                 |\n";
-    cout << "|           Bien venido           |\n";
+    cout << "|            Bienvenido           |\n";
     cout << "|  Programa de compra de boletos  |\n";
     cout << "|                                 |\n";
     cout << "*---------------------------------*\n";

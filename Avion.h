@@ -1,3 +1,7 @@
+//
+// Creado por Leonardo Martínez Peña
+//
+
 #ifndef AVION_H
 #define AVION_H
 #include <iostream> 
