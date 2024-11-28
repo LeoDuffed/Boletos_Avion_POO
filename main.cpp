@@ -20,33 +20,30 @@ int main(){
         Avion ("Vuelo a Ecuador", 20)
     };
 
-    cout << "*----------------------------------*\n";
-    cout << "|                                  |\n";
-    cout << "|             Bienvenido           |\n";
-    cout << "|   Programa de compra de boletos  |\n";
-    cout << "|                                  |\n";
-    cout << "*----------------------------------*\n";
+    cout << "*-----------------------------------*\n";
+    cout << "|                                   |\n";
+    cout << "|             Bienvenido            |\n";
+    cout << "|   Programa de compra de boletos   |\n";
+    cout << "|                                   |\n";
+    cout << "*-----------------------------------*\n";
     
  int opcionesAcciones;
     do {
 
         cout << "\n     ---Vuelos---\n";
         for (int i = 0; i < 10; i++ ){
-            cout << i + 1 << " = "<< avionesArray[i].getNombreVuelo()<< endl;
+            cout <<" "<< i + 1 << " = "<< avionesArray[i].getNombreVuelo()<< endl;
         }
 
         cout << "\n---Ingrese 0 para salir---\n";
-//        cout << "\n     ---Vuelos---\n";
-//        cout << "\n1 = Vuelo a Argentina\n2 = Vuelo a Colombia\n3 = Vuelo a Peru\n4 = Vuelo a Venezuela\n5 = Vuelo a Brasil\n";
-//        cout << "6 = Vuelo a Chile\n7 = Vuelo a Bolivia\n8 = Vuelo a Urugüay\n9 = Vuelo a Paragüay\n10 = Vuelo a Ecuador\n0 = Salir\n";
-       cout << "\n --> Ingrese eleccion: ";
+        cout << "\n --> Ingrese eleccion: ";
         cin >> opcionesAcciones;
 
         if (opcionesAcciones >= 1 && opcionesAcciones <= 10) {
             int opcioBoleto;
-            cout << "\n*-------------------------------*";
-            cout << "\nHas ingresado a " << avionesArray[opcionesAcciones - 1].getNombreVuelo()<< endl;
-            cout << "*-------------------------------*\n";            
+            cout << "\n*-----------------------------------*";
+            cout << "\n  Has ingresado a " << avionesArray[opcionesAcciones - 1].getNombreVuelo()<< endl;
+            cout << "*-----------------------------------*\n";            
             cout << "\n1 = Comprar boleto\n2 = Mostrar boletos\n0 = Salir\n";
             cout << "\nIngrese su eleccion: ";
             cin >> opcioBoleto;

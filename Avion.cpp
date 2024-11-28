@@ -38,7 +38,7 @@ void Avion :: comprarBoleto(){
     if (boletosVendidos < capacidadMaxima){
         cout << "Ingresaste a "<< nombreVuelo << endl;
         string nombrePasajero;
-        cout << "Ingrese el nombre del pasajero: ";
+        cout << "\nIngrese el nombre del pasajero: ";
         cin.ignore();
         getline(cin, nombrePasajero);
 
@@ -46,9 +46,9 @@ void Avion :: comprarBoleto(){
         boletos[boletosVendidos] = Boleto(nombrePasajero, numeroAsiento);
         boletosVendidos ++;
 
-        cout << "Boleto comprado con exito para: " << nombrePasajero << " en el asiento: "<< numeroAsiento << endl;
+        cout << "\nBoleto comprado con exito para: " << nombrePasajero << " en el asiento: "<< numeroAsiento << endl;
     } else {
-        cout << "Lo sentimos, el vuelo esta lleno";
+        cout << "\nLo sentimos, el vuelo esta lleno\n";
     }
 }
 
