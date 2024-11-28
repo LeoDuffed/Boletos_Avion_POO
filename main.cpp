@@ -33,6 +33,7 @@ int main(){
 
         if (opcionesAcciones >= 1 && opcionesAcciones <= 10) {
             int opcioBoleto;
+            cout << "\nHas ingresado a " << avionesArray[opcionesAcciones - 1].getNombreVuelo()<< "\n"<< endl;
             cout << "\n1 = Comprar boleto\n2 = Mostrar boletos\n0 = Salir\n";
             cout << "\nIngrese su eleccion: ";
             cin >> opcioBoleto;
